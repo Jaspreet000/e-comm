@@ -12,7 +12,6 @@ const initialState: StoreState = {
   userInfo: null,
   orderData: [],
 };
-
 export const shoppingSlice = createSlice({
   name: "shopping",
   initialState,
@@ -65,7 +64,6 @@ export const shoppingSlice = createSlice({
     },
   },
 });
-
 export const {
   addToCart,
   increaseQuantity,
